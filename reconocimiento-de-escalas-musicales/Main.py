@@ -1,5 +1,4 @@
-"""	Main: Archivo que muestra el uso basico de la clase Comparator.
-"""
+"""	Main: Archivo que muestra el uso basico de la clase Comparator	    """
 
 # Se utiliza el modulo py_midicsv para extraer las notas desde un archivo MIDI.
 import py_midicsv as pm
@@ -7,7 +6,7 @@ import py_midicsv as pm
 from Comparator import Comparator
 
 # Se cambia el formato del archivo de MIDI a CSV
-OnRepeat = pm.midi_to_csv(r"C:\Users\Familia\Desktop\Santiago\UNIVERSIDAD\Semestre IV\Matematicas Discretas II\Proyecto\OnRepeat.mid")
+OnRepeat = pm.midi_to_csv(r"dummy.mid")
 
 # Extraccion de Notas de Archivo MIDI
 notes = []
